@@ -6,7 +6,8 @@
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1275px;
+    width: 100%;
     margin: 0px auto;
     padding: 0px 15px;
 }
@@ -16,3 +17,95 @@
 /* 1200
 992
 767 */
+.header {
+}
+.main-page {
+    height: 800px;
+}
+.main__content {
+    display: flex;
+    margin-top: 190px;
+}
+
+.modern__container {
+    width: 514px;
+    height: 176px;
+}
+.modern-content {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 92%;
+    /* or 92% */
+    text-transform: uppercase;
+}
+
+.info-text__container {
+    height: 160px;
+    width: 350px;
+    margin-left: 246px;
+}
+
+@media(max-width: 1126px){
+    .info-text__container {
+        margin-left: 146px;
+    }
+}
+
+
+.info__text {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.text-color {
+    color: #444444;
+}
+
+.buttons__container{
+    display: flex;
+    justify-content: flex-end;
+    margin: 48px 254px;
+}
+
+.main-block__buttons {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.main-block__button {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 24px 35px;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: 3.63636px;
+}
+.location-button {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.main-block__arrows {
+    display: inline-flex;
+}
+.main-block__arrow {
+    background-color: #D5966C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 24px;
+}
+.arrow {
+}
