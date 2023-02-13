@@ -1,0 +1,129 @@
+.wrapper {
+    display: flex;
+    width: 1440px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.header__image {
+    /* display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center; */
+    
+}
+
+.main {
+    height: 548px;
+    color: aliceblue;
+    background-color: #151515;
+}
+
+.main__container {
+    display: flex;
+    flex-direction: row;
+    height: 316px;
+    width: 1110px;
+    margin: 104px 165px 128px 165px;
+    justify-content: space-between;
+}
+.our-location-text__container {
+}
+.our-location-text {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 70px;
+/* or 100% */
+
+    text-transform: uppercase;
+}
+.content__container {
+}
+.king-street-text {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    /* identical to box height, or 100% */
+
+    text-transform: uppercase;
+
+    /* Gold */
+
+    color: #D5966C;
+    margin-bottom: 24px;
+}
+.first-par {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    /* or 145% */
+    margin-bottom: 32px;
+
+    /* White */
+
+    color: #FFFFFF;
+}
+.second-par {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    /* or 145% */
+
+
+    /* White */
+
+    color: #FFFFFF;
+}
+
+
+/* footer  */
+
+.footer {
+    background-color:#D5966C;
+    height: 244px;
+}
+.footer__container {
+    display: flex;
+    max-width: 1110px;
+    justify-content: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 244px;
+    align-items: center;
+}
+.footer-gallery-logo {
+}
+.footer-logo {
+    width: 159.57px;
+    height: 58px;
+}
+.footer-info-text {
+
+}
+.info-text {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    color: #151515;
+}
+.footer-icons {
+}
+.fb {
+}
+.insta {
+    margin-left: 20px;
+}
+.twit {
+    margin-left: 20px;
+}
