@@ -5,13 +5,67 @@
     flex-direction: column;
 }
 
-.header__image {
-    /* display: flex;
-    width: 100%;
-    margin: 0 auto;
-    justify-content: center; */
-    
+.header {
+    position: relative;
 }
+
+
+/* buttonget back */
+.buttons__container-back {
+    display: flex;
+    justify-content: flex-end;
+    margin: 48px 162px;
+    align-items: flex-start;
+    position: absolute;
+    top: -48px;
+    left: 0;
+}
+.main-block__buttons-back {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.main-block__buttons-back:hover .main-block__button-back {
+    cursor: pointer;
+    background-color: #D5966C;
+}
+
+.main-block__buttons-back:hover .main-block__arrow-back {
+    cursor: pointer;
+    background-color: black;
+}
+
+.main-block__button-back {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 24px 35px;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: 3.63636px;
+}
+.back-button {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.main-block__arrows-back {
+    display: inline-flex;
+}
+.main-block__arrow-back {
+    background-color: #D5966C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 24px;
+}
+
+/* main */
 
 .main {
     height: 548px;
@@ -27,8 +81,7 @@
     margin: 104px 165px 128px 165px;
     justify-content: space-between;
 }
-.our-location-text__container {
-}
+
 .our-location-text {
     font-family: 'Big Shoulders Display';
     font-style: normal;
@@ -39,8 +92,7 @@
 
     text-transform: uppercase;
 }
-.content__container {
-}
+
 .king-street-text {
     font-family: 'Big Shoulders Display';
     font-style: normal;
@@ -75,11 +127,6 @@
     font-weight: 300;
     font-size: 22px;
     line-height: 32px;
-    /* or 145% */
-
-
-    /* White */
-
     color: #FFFFFF;
 }
 
@@ -99,8 +146,7 @@
     height: 244px;
     align-items: center;
 }
-.footer-gallery-logo {
-}
+
 .footer-logo {
     width: 159.57px;
     height: 58px;

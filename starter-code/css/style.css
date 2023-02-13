@@ -5,22 +5,27 @@
     min-height: 100%;
 }
 
+/* .black-block__container{
+    width: 460px;
+    height: 799px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #151515;
+} */
+
 .container {
     max-width: 1275px;
     width: 100%;
     margin: 0px auto;
     padding: 0px 15px;
+    /* position: relative; */
+    
 }
 
-
-
-/* 1200
-992
-767 */
-.header {
-}
 .main-page {
     height: 800px;
+    
 }
 .main__content {
     display: flex;
@@ -32,6 +37,7 @@
     width: 514px;
     height: 176px;
 }
+
 .modern-content {
     font-family: 'Big Shoulders Display';
     font-style: normal;
@@ -47,13 +53,6 @@
     width: 350px;
     margin-left: 246px;
 }
-
-@media(max-width: 1126px){
-    .info-text__container {
-        margin-left: 146px;
-    }
-}
-
 
 .info__text {
     font-family: 'Outfit';
@@ -114,6 +113,7 @@
 .main-block__arrows {
     display: inline-flex;
 }
+
 .main-block__arrow {
     background-color: #D5966C;
     display: flex;
@@ -123,8 +123,6 @@
 }
 
 
-.arrow {
-}
 
 /*  ----------- body  --------------- */
 
@@ -133,8 +131,6 @@
     max-width: 1110px;
     width: 100%;
     margin: 0px auto;
-}
-.body-content {
 }
 
 .color-white{
@@ -166,8 +162,7 @@
 .marg__top {
     margin-top: 32px;
 }
-.info-block__image {
-}
+
 .info-image {
     width: 635px;
     height: 400px;
@@ -184,14 +179,6 @@
 .background-black {
     background-color: #151515;
 }
-.second-block__image {
-}
-.chear__image {
-}
-.inspired-container {
-}
-.gallery-image_02 {
-}
 
 .margins {
     margin: 65px 47px 32px 48px;
@@ -200,6 +187,7 @@
 .info__text-margins {
     margin: 0px 47px 64px 48px;
 }
+
 .info-block__margin-top {
     margin-top: 30px;
 }
@@ -223,6 +211,7 @@
     margin-top: 80px;
     align-items: center;
 }
+
 .footer-info-text {
     /* Body (S) */
 
@@ -246,16 +235,15 @@
 .footer__logo{
     width: 230px;
 }
+
 .footer-container-icons {
     margin-left: 275px;
     margin-bottom: 65px;
 }
 
-
 .footer-container-icons img:nth-child(n) {
     margin: 0px 0px 0px 15px;
   }
-
 
   .svg:hover {
     fill: red;
