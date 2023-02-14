@@ -21,6 +21,13 @@
     background-color: #151515;
 }
 
+.header-image__container {
+    height: 799px;
+    position: absolute;
+    left: 713px;
+    top: 0;
+}
+
 .container {
     max-width: 1275px;
     width: 100%;
@@ -61,6 +68,7 @@
 }
 
 .info-text__container {
+    display: flex;
     height: 160px;
     width: 350px;
     margin-left: 310px;
@@ -72,6 +80,7 @@
     font-weight: 300;
     font-size: 22px;
     line-height: 32px;
+    z-index: 1;
 }
 
 .text-color {
@@ -87,6 +96,7 @@
 .main-block__buttons {
     display: inline-flex;
     justify-content: flex-end;
+    z-index: 1;
 }
 
 .main-block__buttons:hover .main-block__button {
@@ -208,12 +218,12 @@
 /* ---------- Footer --------- */
 
 .footer {
+    display: flex;
     margin-top: 180px;
     height: 244px;
 }
 
 .footer-content__container {
-    display: flex;
     max-width: 1110px;
     width: 100%;
     margin: 0px auto;
@@ -259,4 +269,71 @@
 
   .svg:hover {
     fill: red;
+  }
+
+
+  /*   Media from 768 px tablet */
+
+
+  @media (max-width: 768px) {
+    .black-block__container{
+        display: none;
+    }
+    .header-image__container {
+        left: 0px;
+    }
+    .container {
+        width: 776px;
+        width: 100%;
+        margin-right: 40px;
+        padding: 0px 15px;
+    }
+
+    .main__content{
+        width: 776px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 40px;
+        padding-right: 40px;
+        align-items: baseline;
+    }
+
+    .modern-content{
+        font-size: 70px;
+        line-height: 93%;
+        /* or 93% */
+        text-transform: uppercase;
+        color: #151515;
+    }
+    .end-to-black{
+        display: contents;
+    }
+
+   .header-image {
+    width: 437px;
+    height: 700px;
+   }
+
+      .modern-content {
+        display: flex;
+        width: 339px;
+    }
+
+    .info-text__container {
+        margin-left: 220px;
+    }
+
+    .info__text {
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 156%;
+        color: #444444;
+    }
+    .buttons__container {
+        display: flex;
+        justify-content: flex-end;
+        margin: 46px 130px;
+    }
   }
